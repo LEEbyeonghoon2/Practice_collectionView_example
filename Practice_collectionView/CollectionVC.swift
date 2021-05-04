@@ -28,8 +28,8 @@ class CollectionVC: UIViewController {
 
         let threePicture: CGFloat = UIScreen.main.bounds.width / 3.0
 
-        flowlayout.estimatedItemSize = CGSize(width: threePicture - 30, height: 100.0)
-
+        //flowlayout.estimatedItemSize = CGSize(width: threePicture - 30, height: 100.0)
+        //setting collectionView itemSize
         flowlayout.itemSize = CGSize(width: threePicture - 30, height: 100.0)
         
         collectionView.collectionViewLayout = flowlayout
@@ -79,6 +79,7 @@ extension CollectionVC: UICollectionViewDelegate {
         return true
     }
 }
+/* add UICollectionDelegateFlowLayout */
 //extension CollectionVC: UICollectionViewDelegateFlowLayout {
 //    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
 //        guard let flow = collectionViewLayout as? UICollectionViewFlowLayout else {
