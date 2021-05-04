@@ -7,23 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC205A5B2640464000B5BA38 /* CollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC205A5A2640464000B5BA38 /* CollectionCell.swift */; };
+		BC205A5D264048EE00B5BA38 /* playerVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC205A5C264048EE00B5BA38 /* playerVO.swift */; };
 		BC577185264006D6006A4B04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC577184264006D6006A4B04 /* AppDelegate.swift */; };
 		BC577187264006D6006A4B04 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC577186264006D6006A4B04 /* SceneDelegate.swift */; };
-		BC577189264006D6006A4B04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC577188264006D6006A4B04 /* ViewController.swift */; };
+		BC577189264006D6006A4B04 /* CollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC577188264006D6006A4B04 /* CollectionVC.swift */; };
 		BC57718C264006D6006A4B04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC57718A264006D6006A4B04 /* Main.storyboard */; };
 		BC57718E264006D7006A4B04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC57718D264006D7006A4B04 /* Assets.xcassets */; };
 		BC577191264006D7006A4B04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC57718F264006D7006A4B04 /* LaunchScreen.storyboard */; };
+		BC5771A2264043F2006A4B04 /* HeoKyung.png in Resources */ = {isa = PBXBuildFile; fileRef = BC577199264043F2006A4B04 /* HeoKyung.png */; };
+		BC5771A3264043F2006A4B04 /* KimJaehwan.png in Resources */ = {isa = PBXBuildFile; fileRef = BC57719A264043F2006A4B04 /* KimJaehwan.png */; };
+		BC5771A4264043F2006A4B04 /* JungSoo.png in Resources */ = {isa = PBXBuildFile; fileRef = BC57719B264043F2006A4B04 /* JungSoo.png */; };
+		BC5771A5264043F2006A4B04 /* ParkKun.png in Resources */ = {isa = PBXBuildFile; fileRef = BC57719C264043F2006A4B04 /* ParkKun.png */; };
+		BC5771A6264043F2006A4B04 /* OhJae.png in Resources */ = {isa = PBXBuildFile; fileRef = BC57719D264043F2006A4B04 /* OhJae.png */; };
+		BC5771A7264043F2006A4B04 /* parksei.png in Resources */ = {isa = PBXBuildFile; fileRef = BC57719E264043F2006A4B04 /* parksei.png */; };
+		BC5771A8264043F2006A4B04 /* KimJae.png in Resources */ = {isa = PBXBuildFile; fileRef = BC57719F264043F2006A4B04 /* KimJae.png */; };
+		BC5771A9264043F2006A4B04 /* Fernandez.png in Resources */ = {isa = PBXBuildFile; fileRef = BC5771A0264043F2006A4B04 /* Fernandez.png */; };
+		BC5771AA264043F2006A4B04 /* KimIn.png in Resources */ = {isa = PBXBuildFile; fileRef = BC5771A1264043F2006A4B04 /* KimIn.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BC205A5A2640464000B5BA38 /* CollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionCell.swift; sourceTree = "<group>"; };
+		BC205A5C264048EE00B5BA38 /* playerVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playerVO.swift; sourceTree = "<group>"; };
 		BC577181264006D6006A4B04 /* Practice_collectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Practice_collectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC577184264006D6006A4B04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC577186264006D6006A4B04 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BC577188264006D6006A4B04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BC577188264006D6006A4B04 /* CollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionVC.swift; sourceTree = "<group>"; };
 		BC57718B264006D6006A4B04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BC57718D264006D7006A4B04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC577190264006D7006A4B04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC577192264006D7006A4B04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC577199264043F2006A4B04 /* HeoKyung.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HeoKyung.png; sourceTree = "<group>"; };
+		BC57719A264043F2006A4B04 /* KimJaehwan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KimJaehwan.png; sourceTree = "<group>"; };
+		BC57719B264043F2006A4B04 /* JungSoo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JungSoo.png; sourceTree = "<group>"; };
+		BC57719C264043F2006A4B04 /* ParkKun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ParkKun.png; sourceTree = "<group>"; };
+		BC57719D264043F2006A4B04 /* OhJae.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OhJae.png; sourceTree = "<group>"; };
+		BC57719E264043F2006A4B04 /* parksei.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = parksei.png; sourceTree = "<group>"; };
+		BC57719F264043F2006A4B04 /* KimJae.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KimJae.png; sourceTree = "<group>"; };
+		BC5771A0264043F2006A4B04 /* Fernandez.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fernandez.png; sourceTree = "<group>"; };
+		BC5771A1264043F2006A4B04 /* KimIn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KimIn.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +62,7 @@
 		BC577178264006D6006A4B04 = {
 			isa = PBXGroup;
 			children = (
+				BC577198264043E6006A4B04 /* product */,
 				BC577183264006D6006A4B04 /* Practice_collectionView */,
 				BC577182264006D6006A4B04 /* Products */,
 			);
@@ -58,13 +81,31 @@
 			children = (
 				BC577184264006D6006A4B04 /* AppDelegate.swift */,
 				BC577186264006D6006A4B04 /* SceneDelegate.swift */,
-				BC577188264006D6006A4B04 /* ViewController.swift */,
+				BC577188264006D6006A4B04 /* CollectionVC.swift */,
+				BC205A5A2640464000B5BA38 /* CollectionCell.swift */,
 				BC57718A264006D6006A4B04 /* Main.storyboard */,
 				BC57718D264006D7006A4B04 /* Assets.xcassets */,
 				BC57718F264006D7006A4B04 /* LaunchScreen.storyboard */,
 				BC577192264006D7006A4B04 /* Info.plist */,
+				BC205A5C264048EE00B5BA38 /* playerVO.swift */,
 			);
 			path = Practice_collectionView;
+			sourceTree = "<group>";
+		};
+		BC577198264043E6006A4B04 /* product */ = {
+			isa = PBXGroup;
+			children = (
+				BC5771A0264043F2006A4B04 /* Fernandez.png */,
+				BC577199264043F2006A4B04 /* HeoKyung.png */,
+				BC57719B264043F2006A4B04 /* JungSoo.png */,
+				BC5771A1264043F2006A4B04 /* KimIn.png */,
+				BC57719F264043F2006A4B04 /* KimJae.png */,
+				BC57719A264043F2006A4B04 /* KimJaehwan.png */,
+				BC57719D264043F2006A4B04 /* OhJae.png */,
+				BC57719C264043F2006A4B04 /* ParkKun.png */,
+				BC57719E264043F2006A4B04 /* parksei.png */,
+			);
+			path = product;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +166,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC577191264006D7006A4B04 /* LaunchScreen.storyboard in Resources */,
+				BC5771A2264043F2006A4B04 /* HeoKyung.png in Resources */,
 				BC57718E264006D7006A4B04 /* Assets.xcassets in Resources */,
+				BC5771A6264043F2006A4B04 /* OhJae.png in Resources */,
+				BC5771A8264043F2006A4B04 /* KimJae.png in Resources */,
+				BC5771A4264043F2006A4B04 /* JungSoo.png in Resources */,
+				BC5771A3264043F2006A4B04 /* KimJaehwan.png in Resources */,
+				BC5771A9264043F2006A4B04 /* Fernandez.png in Resources */,
+				BC5771AA264043F2006A4B04 /* KimIn.png in Resources */,
+				BC5771A5264043F2006A4B04 /* ParkKun.png in Resources */,
 				BC57718C264006D6006A4B04 /* Main.storyboard in Resources */,
+				BC5771A7264043F2006A4B04 /* parksei.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,9 +187,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC577189264006D6006A4B04 /* ViewController.swift in Sources */,
+				BC577189264006D6006A4B04 /* CollectionVC.swift in Sources */,
 				BC577185264006D6006A4B04 /* AppDelegate.swift in Sources */,
 				BC577187264006D6006A4B04 /* SceneDelegate.swift in Sources */,
+				BC205A5B2640464000B5BA38 /* CollectionCell.swift in Sources */,
+				BC205A5D264048EE00B5BA38 /* playerVO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
