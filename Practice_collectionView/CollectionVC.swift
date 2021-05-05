@@ -24,16 +24,18 @@ class CollectionVC: UIViewController {
 
         flowlayout.minimumLineSpacing = 5
         flowlayout.minimumInteritemSpacing = 5
+        
+        flowlayout.footerReferenceSize = CGSize(width: 10, height: 10)
+        flowlayout.headerReferenceSize = CGSize(width: 20, height: 20)
 
 
         let threePicture: CGFloat = UIScreen.main.bounds.width / 3.0
 
-        //flowlayout.estimatedItemSize = CGSize(width: threePicture - 30, height: 100.0)
+        flowlayout.estimatedItemSize = CGSize(width: threePicture - 30, height: 100.0)
         //setting collectionView itemSize
-        flowlayout.itemSize = CGSize(width: threePicture - 30, height: 100.0)
+//        flowlayout.itemSize = CGSize(width: threePicture - 30, height: 100.0)
         
         collectionView.collectionViewLayout = flowlayout
-        self.collectionView.reloadData()
     }
     
     lazy var playerlist: [playerVO] = {
@@ -73,7 +75,7 @@ extension CollectionVC: UICollectionViewDataSource {
     }
 extension CollectionVC: UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        print("\(indexPath)번째 행입니다.")
+        print("\(indexPath.row)번째 행입니다.")
     }
     func collectionView(_ collectionView: UICollectionView, shouldHighlightItemAt indexPath: IndexPath) -> Bool {
         return true

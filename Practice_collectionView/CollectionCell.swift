@@ -11,4 +11,6 @@ class CollcetionCell: UICollectionViewCell {
     @IBOutlet weak var playerimage: UIImageView!
     
     @IBOutlet weak var playerName: UILabel!
+    
+
 }
